@@ -1,0 +1,22 @@
+<div class="card">
+    <div class="card-header">
+        {{title}}
+    </div>
+    <ul class="list-group list-group-flush">
+        <li *ngFor="let movie of movies" class="list-group-item">
+            <span class="badge badge-primary">{{movie._id}}</span> {{movie._name}}
+            <span class="close">x</span>
+        </li>
+    </ul>
+</div>
+<!-- <h2>{{"Title: "+ getTitle()}}</h2> -->
+<!-- <div>{{movie._id}}</div>
+<div>{{movie._name}}</div> -->
+
+<!-- <ul>
+    <li *ngFor="let movie of movies">
+        {{movie}}
+    </li>
+</ul> -->
+<!-- <app-movie></app-movie>
+<app-movie></app-movie> -->
